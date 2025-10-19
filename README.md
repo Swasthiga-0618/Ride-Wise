@@ -103,27 +103,15 @@ mse = mean_squared_error(y_test, y_pred)
 
 print(f"R2 Score: {r2:.3f}, MAE: {mae:.2f}, MSE: {mse:.2f}")
 
-7️⃣ File Structure
-├── stacking_model.pkl          # Trained model pickle file
-├── data/                       # Folder containing dataset
-├── notebooks/                  # Jupyter notebooks
-├── scripts/                    # Preprocessing and training scripts
-├── README.md                   # Project documentation
-├── requirements.txt            # Dependencies
 
-8️⃣ Future Work
 
-Try additional feature engineering (interactions, polynomial features)
+ References
 
-Explore other ensemble models or deep learning approaches
+XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
 
-Deploy the model via Flask or Streamlit for real-time predictions
+Scikit-learn Stacking Regressor: https://scikit-learn.org/stable/
 
-9️⃣ References
-
-XGBoost Documentation
-
-Scikit-learn Stacking Regressor
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Author: Swasthiga Sree
 swasthiga6@gmail.com
