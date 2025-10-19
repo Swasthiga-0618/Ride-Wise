@@ -76,20 +76,20 @@ git clone [repo-link]
 cd [project-folder]
 
 
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
 
-Load the trained model and make predictions:
+3. Load the trained model and make predictions:
 
 import pickle
 
-# Load model
+Load model
 with open('stacking_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-# Predict
+4. Predict
 y_pred = model.predict(X_test)
 
 
