@@ -107,7 +107,7 @@ with open('stacking_model.pkl', 'rb') as f:
 y_pred = model.predict(X_test)
 
 
-(Optional) Evaluate performance:
+5. (Optional) Evaluate performance:
 
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
