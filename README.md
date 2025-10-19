@@ -100,12 +100,12 @@ Note: Typical dependencies include scikit-learn, xgboost, pandas, numpy, matplot
 3. Load the Trained Model
 import pickle
 
-# Load the saved stacking model
+--> Load the saved stacking model
 with open('stacking_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 4. Predict Bike Rentals
-# X_test should be your test feature set
+--> X_test should be your test feature set
 y_pred = model.predict(X_test)
 
 print("Predictions:", y_pred[:10])  # Print first 10 predictions
@@ -113,7 +113,7 @@ print("Predictions:", y_pred[:10])  # Print first 10 predictions
 5. Evaluate Model Performance
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
-# y_test = actual rental counts for test data
+--> y_test = actual rental counts for test data
 r2 = r2_score(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
 mse = mean_squared_error(y_test, y_pred)
@@ -129,14 +129,11 @@ plt.scatter(y_test, y_pred)
 plt.xlabel("Actual Rentals")
 plt.ylabel("Predicted Rentals")
 plt.title("Actual vs Predicted Bike Rentals")
-plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red')  # Perfect prediction line
+plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red')  -->Perfect prediction line
 plt.show()
 
 
-This will give a visual check to see how well the model predicts bike rentals.
-
-
- References
+# References
 
 XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
 
