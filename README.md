@@ -55,7 +55,17 @@ The challenge is to predict the [target] accurately based on multiple input feat
 - Test R² Score: 0.862  
 - MAE: 475.07  
 - MSE: 441190.19  
-- Cross-validation R²: 0.8343  
+- Cross-validation R²: 0.8343
+
+
+<img width="606" height="443" alt="Screenshot 2025-10-19 162206" src="https://github.com/user-attachments/assets/65d126fa-699f-4bb7-afda-a7853b8d4ad0" />
+
+<img width="885" height="461" alt="Screenshot 2025-10-19 162713" src="https://github.com/user-attachments/assets/64dc27c3-4a0d-43ac-994c-12cb486dbe49" />
+
+<img width="770" height="480" alt="Screenshot 2025-10-19 162823" src="https://github.com/user-attachments/assets/8c62348a-7c89-40e7-9a24-3e00821e6471" />
+
+
+
 
 **Sample Predictions:**  
 | Actual | Predicted |
