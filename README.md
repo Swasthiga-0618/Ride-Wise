@@ -30,6 +30,13 @@ The challenge is to predict the [target] accurately based on multiple input feat
   - Training: X_train → `(579, 22)`, y_train → `(579,)`  
   - Testing: X_test → `(145, 22)`
   - Target Variable (count → Total number of bikes rented on a particular day)
+ 
+Feature Importance → shows model interpretability
+
+<img width="606" height="443" alt="Screenshot 2025-10-19 162206" src="https://github.com/user-attachments/assets/65d126fa-699f-4bb7-afda-a7853b8d4ad0" />
+
+<img width="885" height="461" alt="Screenshot 2025-10-19 162713" src="https://github.com/user-attachments/assets/64dc27c3-4a0d-43ac-994c-12cb486dbe49" />
+
 
 ---
 
@@ -57,10 +64,7 @@ The challenge is to predict the [target] accurately based on multiple input feat
 - MSE: 441190.19  
 - Cross-validation R²: 0.8343
 
-
-<img width="606" height="443" alt="Screenshot 2025-10-19 162206" src="https://github.com/user-attachments/assets/65d126fa-699f-4bb7-afda-a7853b8d4ad0" />
-
-<img width="885" height="461" alt="Screenshot 2025-10-19 162713" src="https://github.com/user-attachments/assets/64dc27c3-4a0d-43ac-994c-12cb486dbe49" />
+Actual vs Predicted → shows accuracy visually
 
 <img width="770" height="480" alt="Screenshot 2025-10-19 162823" src="https://github.com/user-attachments/assets/8c62348a-7c89-40e7-9a24-3e00821e6471" />
 
