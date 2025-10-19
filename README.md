@@ -71,7 +71,7 @@ The challenge is to predict the [target] accurately based on multiple input feat
 
 ## 6️⃣ Usage
 1. Clone this repository:
-```bash
+ 
 git clone [repo-link]
 cd [project-folder]
 
